@@ -1,7 +1,7 @@
 # ReportCard.py
 # Lets the user enter there results and determines if they get a pass or a fail.
 # 13/10/22
-#
+# @Author : Killian
 
 # declare variables and get user inputs
 from cmath import e
@@ -44,4 +44,14 @@ print ("Module\t\tGrade\t\tResult")
 print("Programming\t"+str(grade_programming)+"\t\t"+str(result_programming))
 print("Networking\t"+str(grade_networking)+"\t\t"+str(result_networking))
 
-
+# Outputs the given results into a file that can be read by the user
+f=open ("demofile3.txt", "w")
+f.write("*************************\n")
+f.write("*\tReport Card\t*\n")
+f.write("*\t\t\t*\n")
+f.write("*************************\n")
+f.close()
+ 
+# open and read the file after the appending:
+f = open("demofile3.txt", "r")
+print(f.read())
