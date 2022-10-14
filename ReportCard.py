@@ -1,6 +1,6 @@
 # ReportCard.py
-#
-#
+# Lets the user enter there results and determines if they get a pass or a fail.
+# 13/10/22
 #
 
 # declare variables and get user inputs
