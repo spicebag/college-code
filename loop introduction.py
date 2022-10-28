@@ -45,3 +45,17 @@ for x in range(1,6):
     total=total +num
 print("The total is: " +str(total))
 print("\n The average is " +str(total/(x)))
+
+from random import randint
+total=0 
+for x in range(10):
+    num=randint(1,10)
+    print(num)
+    total=total+num
+
+    # If statement to check if number is 6
+    if (num==6):
+        print("You got a 6")
+        break
+    
+print("Total = " +str(total))
