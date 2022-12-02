@@ -42,4 +42,60 @@ if playeroneage < 18 or playertwoage < 18:
     quit()
 else:
     print("You are old enough to continue, welcome")
-0
+    cards = []
+    loops = 5
+    
+    # Generates random number and assigns value.
+number = randint(1, 13)
+suitnumb = randint(1, 4)
+suit = 0
+    
+    # Generates random number and assigns value.
+number = randint(1, 13)
+num = number
+suitnumb = randint(1, 4)
+suit = 0
+
+   # Sets the suit.
+if suitnumb == 1:
+    suit = "Hearts"
+elif suitnumb == 2:
+    suit = "Clubs"
+elif suitnumb == 3:
+    suit = "Spades"
+else:
+    suit = "Diamonds"
+
+   # Sets the number of the card.
+    if number == 1:
+        number = "Ace"
+    elif number == 11:
+        number = "Jack"
+    elif number == 12:
+        number = "Queen"
+    elif number == 13:
+        number = "King"
+    else:
+        number = str(number)
+
+print("Generating card...")
+time.sleep(0.5)
+print("Generating card..")
+time.sleep(0.5)
+print("Generating card.")
+time.sleep(0.5)
+print ("*****")
+card = (str(number)+ " of " +suit)
+print(card)
+print("*****")
+choice = (input("Would you like to pick another card? (Y/N) "))
+choice = choice.lower()
+
+
+
+if choice == "Y":
+        cards.append(card)
+        loops = (loops - 1)
+        
+elif choice == "N":
+        cards.append
