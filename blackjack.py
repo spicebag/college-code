@@ -93,9 +93,9 @@ choice = choice.lower()
 
 
 
-if choice == "Y":
+if choice == "y":
         cards.append(card)
         loops = (loops - 1)
         
-elif choice == "N":
+elif choice == "n":
         cards.append
