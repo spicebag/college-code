@@ -47,11 +47,6 @@ else:
     
     # Generates random number and assigns value.
 number = randint(1, 13)
-suitnumb = randint(1, 4)
-suit = 0
-    
-    # Generates random number and assigns value.
-number = randint(1, 13)
 num = number
 suitnumb = randint(1, 4)
 suit = 0
@@ -85,7 +80,7 @@ time.sleep(0.5)
 print("Generating card.")
 time.sleep(0.5)
 print ("*****")
-card = (str(number)+ " of " +number)
+card = (str(number)+ " of " +suit)
 print(card)
 print("*****")
 choice = (input("Would you like to pick another card? (Y/N) "))
