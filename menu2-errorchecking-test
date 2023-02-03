@@ -13,20 +13,15 @@ def Errorcheck(message):
               break
           return (userinput)
       
-
-
-
-
 # Main Program
 option=0
 while option!=5:
     print("*** Menu ***")
     print("1. Option #1")
-    print("2. Option #2")
-    print("3. Option #3")
-    print("4. Option #4")
+    print("2. Deposit")
+    print("3. Withdraw")
+    print("4. Options")
     print("5. Exit")
-    option=Errorcheck("Please enter in your option: ")
     
     if option==1:
         print("You chose option 1")
