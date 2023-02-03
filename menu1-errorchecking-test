@@ -1,0 +1,29 @@
+#  menu1.py
+#  Basic example of a menu with error checking
+#
+# Killian
+
+# Main Program
+
+option=0
+while option!=5:
+    print("*** Menu ***")
+    
+    print("1. Option #1")
+    print("2. Option #2")
+    print("3. Option #3")
+    print("4. Option #4")
+    print("5. Exit")
+
+    option=int(input("Please enter in your option: "))
+    if option==1:
+        
+        
+    # Error Check User Input
+     while True:
+      try:
+        option=int(input("Please select one of the following options."))
+      except:
+        print("Invalid Entry, please try again.")
+      else:
+        break
